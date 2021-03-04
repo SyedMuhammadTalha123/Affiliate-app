@@ -12,7 +12,7 @@ class Media extends React.Component {
         return (
             <div>
                 <Navigation />
-                <div className="container-fluid mt-5  hal ">
+                <div className="container-fluid hal ">
                     <div className="row  ">
                         <img src="../pk.jfif" width="100%" height="500px" alt="Responsive image" />
 

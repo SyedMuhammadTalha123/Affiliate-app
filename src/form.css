@@ -1,3 +1,6 @@
+
+
+
 .back{
     background-image: url('../src/images/photo.jfif');
     background-repeat: no-repeat;
@@ -182,8 +185,9 @@
   border-radius: 25px;
 }
 .hyper{
-  font-size: 17px;
+  font-size: 20px;
   color: #4B0082;
+  margin: 10px;
   display:inline;
   text-decoration: none;
   -webkit-transition: all 1s ease;
@@ -193,7 +197,7 @@
 }
 .hyper:hover
 {
-  font-size:19px;
+  font-size: 23px;
   color: #4B0082;
 }
 .dropdown
@@ -226,4 +230,13 @@
   display: inline-block;
   font-size: 20px;
   padding: 20px;
+}
+
+@media (min-width: 576px) { 
+  .footer{
+    background-color:white;
+    padding: 30px;
+    text-align: center;
+    color: white;
+  }
 }

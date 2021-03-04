@@ -158,17 +158,7 @@ class Detail extends React.Component {
 
                     </div>
                 </div>
-                <footer className="footer">
-                    <h3 style={{ color: "white" }}><AimOutlined />  ADDRESS</h3>
-                    <p style={{ fontSize: "20px" }}>121 Rock Sreet, 21 Avenue,New York, NY 92103-900</p>
-                    <h3 style={{ color: "white" }}><PhoneOutlined /> CALL US</h3>
-                    <p style={{ fontSize: "20px" }}>1 (234) 567-891</p>
-                    <p style={{ fontSize: "20px" }}>1 (234) 987-654</p>
-                    <Link to="/"><FacebookFilled className="facebook" style={{ color: "white" }} /></Link>
-                    <Link to="/"><LinkedinFilled className="facebook" style={{ color: "white" }} /></Link>
-                    <Link to="/"> <SkypeFilled className="facebook" style={{ color: "white" }} /></Link>
-                    <Link to="/"> <InstagramFilled className="facebook" style={{ color: "white" }} /></Link>
-                </footer>
+              <Footer/>
             </div>
 
 

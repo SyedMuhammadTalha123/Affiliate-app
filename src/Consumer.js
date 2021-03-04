@@ -7,6 +7,7 @@ import { Modal, Button } from 'react-bootstrap';
 import { Carousel } from 'antd';
 import { ShoppingCartOutlined, HomeOutlined, UsergroupAddOutlined, MoneyCollectOutlined, LayoutOutlined, BankOutlined } from '@ant-design/icons';
 import Item from 'antd/lib/list/Item';
+<meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
 const contentStyle = {
     width: '15%',
     height: '100px',
@@ -17,7 +18,7 @@ class consumer extends React.Component {
         return (
             <div>
                 <Navigation />
-                <div className="container-fluid mt-5 pt-5">
+                <div className="container-fluid mt-5 pt-5 ">
                     <div className="row pt-5 mt-5">
                         <div className="col-sm-8 col-lg-8 offset-lg-3 text-center">
                             <h1 style={{ textAlign: "justify",color: '#4B0082' }}>Actionable Insights for International Growth </h1>

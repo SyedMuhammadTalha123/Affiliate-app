@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom'
 import { Dropdown } from 'react-bootstrap'
 import { addTodo } from "./actions/action";
 import Loginform from './Loginform'
+import { Navbar, Button, FormControl, NavDropdown, Nav, Form } from 'react-bootstrap';
 import "./form.css";
 import Aboutus from "./"
 import Contact from './Contact';
@@ -13,12 +14,14 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 import 'antd/dist/antd.css';
 import { FacebookFilled, InstagramFilled, LinkedinFilled, AimOutlined, QqOutlined, SkypeFilled, PlayCircleOutlined, HomeOutlined, MenuUnfoldOutlined, PhoneOutlined } from "@ant-design/icons";
+
 <link rel="stylesheet"
     href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
     crossorigin="anonymous"
 
 />
+
 class Navigation extends React.Component {
     constructor(props) {
         super(props);
@@ -29,48 +32,37 @@ class Navigation extends React.Component {
 
             <div>
 
-                <nav className=" navbar-dark navbar navbar-expand-sm fixed-top" style={{ backgroundColor: "white", boxShadow: "5px 10px 8px #888888" }}>
-                    <div className="container-fluid">
-
-                        <a className="navbar-brand active pl-5" style={{ color: "white", fontSize: "30px", fontFamily: "arial" }}><img src="https://rakutenadvertising.com/wp-content/uploads/sites/2/2020/11/v2-rad-logo-110320-1.svg" /></a>
-
-                        <button className="navbar navbar-toggler " type="button">
-                            <span className="navbar-toggler-icon "></span>
-
-                        </button>
-
-                        <div className="collapse navbar-collapse" id="test" >
-
-                            <ul className="navbar-nav offset-1 ">
-                   
-                                <Link to="/detail" className="hyper " ><HomeOutlined style={{ color: "#4B0082"}} className="nav-item active nav-link" /><b>Home</b></Link>
-                                <Link to="/Aboutus" className="hyper" ><QqOutlined style={{ color: "#4B0082"}} className="nav-item active nav-link" /><b>Aboutus</b></Link>
-                                <Link to="/Contact" className="hyper" ><PhoneOutlined style={{ color: "#4B0082"}} className=" active nav-link " /><b>Contactus</b></Link>
-                                <Link to="/consumer" className="hyper" ><MenuUnfoldOutlined style={{ color: "#4B0082"}} className="nav-item active nav-link" /><b>Consumer insight</b></Link>
-                                <Link to="/Media" className="hyper"><PlayCircleOutlined style={{ color: "#4B0082" }} className="nav-item active nav-link" /><b>Media</b></Link>
 
 
-                            </ul>
-
-                            <div className="dropdown offset-sm-1">
+                <Navbar collapseOnSelect expand="lg" fixed="top" style={{ backgroundColor: "white", boxShadow: "5px 10px 8px #888888" }} >
+                    <Navbar.Brand href="/" style={{ color: "white", fontSize: "30px", fontFamily: "arial" }}><img src="https://rakutenadvertising.com/wp-content/uploads/sites/2/2020/11/v2-rad-logo-110320-1.svg" /></Navbar.Brand>
+                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                    <Navbar.Collapse id="responsive-navbar-nav">
+                        <Nav className="mr-auto offset-sm-1">
+                            <Nav.Link href="/detail"className="hyper nav-link "style={{ color: "#4B0082"}} >  <HomeOutlined style={{ color: "#4B0082",fontSize:"21px"}} /><b>Home</b></Nav.Link>
+                            <Nav.Link href="/Contact"className="hyper nav-link " style={{ color: "#4B0082" }}> <PhoneOutlined style={{ color: "#4B0082",fontSize:"21px" }}  /><b>Contactus</b></Nav.Link>
+                            <Nav.Link href="/Consumer"className="hyper nav-link " style={{ color: "#4B0082"}}> <MenuUnfoldOutlined style={{ color: "#4B0082",fontSize:"21px" }}/><b>Consumer Insight</b></Nav.Link>
+                            <Nav.Link href="/Media"className="hyper nav-link " style={{ color: "#4B0082"}}>  <PlayCircleOutlined style={{ color: "#4B0082",fontSize:"21px" }}/><b>Media</b></Nav.Link>
+                            <Nav.Link href="/Aboutus"className="hyper nav-link " style={{ color: "#4B0082" }}> <QqOutlined style={{ color: "#4B0082",fontSize:"21px" }}  /><b>Aboutus</b></Nav.Link>
+                            
+                        </Nav>
+                        <div className="dropdown ">
                                 <span>
-                                    <img src={this.props.login.file} style={{ height: "70px", width: "70px", borderRadius: "100px", marginLeft: "100px" }} />
+                                    <img src={this.props.login.file} style={{ height: "70px", width: "70px", borderRadius: "100px",marginRight:"30px",marginLeft: "100px"}} />
                                 </span>
-                                <div class="dropdown-content">
+                                <div class="dropdown-content ">
                                     <p> <b>Username:</b>{this.props.login.uservalue}</p>
                                     <p><b>Userpassword:</b>{this.props.login.userpassword}</p>
 
                                 </div>
                             </div>
+                        
+                    </Navbar.Collapse>
+                   
+                </Navbar>
 
-                        </div>
-
-
-                    </div>
-
-                </nav>
-
-            </div>
+                
+            </div >
         );
     }
 

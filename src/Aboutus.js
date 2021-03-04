@@ -141,7 +141,7 @@ class Aboutus extends React.Component {
                             </div>
 
                         </div>
-
+                        <div className="col-sm-2 text-center ">
                         <Modal show={this.state.show} onHide={this.handleClose}>
 
                             <Modal.Header closeButton>
@@ -157,6 +157,7 @@ class Aboutus extends React.Component {
                            </Button>
                             </Modal.Footer>
                         </Modal>
+                        </div>
                     </div>
              
                 <Footer />
