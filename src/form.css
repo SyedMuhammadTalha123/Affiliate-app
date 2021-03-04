@@ -182,7 +182,7 @@
   border-radius: 25px;
 }
 .hyper{
-  font-size: 18px;
+  font-size: 17px;
   color: #4B0082;
   display:inline;
   text-decoration: none;
@@ -193,7 +193,7 @@
 }
 .hyper:hover
 {
-  font-size: 20px;
+  font-size:19px;
   color: #4B0082;
 }
 .dropdown
