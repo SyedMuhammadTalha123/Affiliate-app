@@ -43,11 +43,11 @@ class Navigation extends React.Component {
 
                             <ul className="navbar-nav offset-1 ">
                    
-                                <Link to="/detail" className="hyper " ><HomeOutlined style={{ color: "#4B0082", display: "inline-block",fontSize:"25px",}} className="nav-item active nav-link" /><b>Home</b></Link>
-                                <Link to="/Aboutus" className="hyper" ><QqOutlined style={{ color: "#4B0082",fontFamily:"arial",fontSize:"25px"}} className="nav-item active nav-link" /><b>Aboutus</b></Link>
-                                <Link to="/Contact" className="hyper" ><PhoneOutlined style={{ color: "#4B0082",fontSize:"25px"}} className=" active nav-link " /><b>Contactus</b></Link>
-                                <Link to="/consumer" className="hyper" ><MenuUnfoldOutlined style={{ color: "#4B0082",fontSize:"25px" }} className="nav-item active nav-link" /><b>Consumer insight</b></Link>
-                                <Link to="/Media" className="hyper"><PlayCircleOutlined style={{ color: "#4B0082",fontSize:"25px" }} className="nav-item active nav-link" /><b>Media</b></Link>
+                                <Link to="/detail" className="hyper " ><HomeOutlined style={{ color: "#4B0082"}} className="nav-item active nav-link" /><b>Home</b></Link>
+                                <Link to="/Aboutus" className="hyper" ><QqOutlined style={{ color: "#4B0082"}} className="nav-item active nav-link" /><b>Aboutus</b></Link>
+                                <Link to="/Contact" className="hyper" ><PhoneOutlined style={{ color: "#4B0082"}} className=" active nav-link " /><b>Contactus</b></Link>
+                                <Link to="/consumer" className="hyper" ><MenuUnfoldOutlined style={{ color: "#4B0082"}} className="nav-item active nav-link" /><b>Consumer insight</b></Link>
+                                <Link to="/Media" className="hyper"><PlayCircleOutlined style={{ color: "#4B0082" }} className="nav-item active nav-link" /><b>Media</b></Link>
 
 
                             </ul>
