@@ -33,7 +33,7 @@ class Loginform extends React.Component {
          else{
     
        window.location="/Login"
-       alert("wrong login detailss!")
+       alert("Wrong login details!")
     
         }
         
