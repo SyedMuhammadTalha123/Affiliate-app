@@ -48,7 +48,7 @@ class Detail extends React.Component {
 
             <div>
 
-                <body style={{margin:"0"}}>
+                <body className="width">
                     <Navigation />
 
                     <div className="row " >
