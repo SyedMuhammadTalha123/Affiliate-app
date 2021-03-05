@@ -17,9 +17,9 @@ class consumer extends React.Component {
     render() {
         return (
             <div>
-
+                 <body className="width">
                 <Navigation />
-                <body className="width">
+               
                     <div className="container-fluid mt-5 pt-5 ">
                         <div className="row pt-5 mt-5">
                             <div className="col-sm-8 col-lg-8 offset-lg-3 text-center">
