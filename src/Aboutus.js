@@ -79,7 +79,7 @@ class Aboutus extends React.Component {
                 <Navigation />
                 
                 
-                    <div className="container-fluid pt-5 mt-5">
+                    <div className="container-fluid pt-5 mt-5" style={{justifyContent:"center"}}>
 
                         <div className="row pt-5 mt-5">
                             <div className="text-center col-sm-12 col-lg-8 offset-lg-2 " style={{ fontSize: "20px", textAlign: "justify" }}>
@@ -105,7 +105,7 @@ class Aboutus extends React.Component {
                         </div>
                         <div className="row mt-5 ">
 
-                            <div className="col-sm-8 col-lg-3 offset-lg-2  mb-sm-5 pb-sm-5">
+                            <div className="col-sm-3 col-lg-3 offset-lg-2 offset-sm-1 mb-sm-5 pb-sm-5">
 
                                 <div className="zoomin">
                                     <img src="../ceo.png" className="image-fluid ml-3" width="150px" height="150px" style={{ borderRadius: "80px" }} />
@@ -117,7 +117,7 @@ class Aboutus extends React.Component {
 
                             </div>
 
-                            <div className="col-sm-8 col-lg-3 mb-sm-5 pb-sm-5 zoomin">
+                            <div className="col-sm-3 col-lg-3 mb-sm-5 pb-sm-5 offset-sm-1 zoomin">
                                 <div className=" ">
                                     <img src="../chief.png" className="image-fluid ml-1" width="150px" height="150px" style={{ borderRadius: "80px" }} />
                                     <div className="link">
@@ -128,7 +128,7 @@ class Aboutus extends React.Component {
 
                             </div>
 
-                            <div className="col-sm-8 col-lg-3 mb-sm-5 pb-sm-5">
+                            <div className="col-sm-3 col-lg-3 mb-sm-5 offset-sm-1 pb-sm-5">
                                 <div className="zoomin">
                                     <img src="../president.png" width="150px" height="150px" className="ml-4" style={{ borderRadius: "80px" }} />
                                     <div className="link">

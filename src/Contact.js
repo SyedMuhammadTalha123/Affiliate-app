@@ -48,7 +48,7 @@ class Contact extends React.Component {
 
 
                         </div>
-                        <div className="col-sm-5 col-lg-5 pt-5 offset-lg-1">
+                        <div className="col-sm-12 col-lg-5 pt-5 offset-lg-1">
                             <Map google={this.props.google} zoom={8} style={mapStyles} initialCenter={{ lat: 47.444, lng: -122.176 }} />
                         </div>
                     </div>
