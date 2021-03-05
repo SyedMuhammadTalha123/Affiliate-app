@@ -21,7 +21,7 @@ class consumer extends React.Component {
                 <div className="container-fluid mt-5 pt-5 ">
                     <div className="row pt-5 mt-5">
                         <div className="col-sm-8 col-lg-8 offset-lg-3 text-center">
-                            <h1 style={{ textAlign: "justify",color: '#4B0082' }}>Actionable Insights for International Growth </h1>
+                            <h1 style={{color: '#4B0082' }}>Actionable Insights for International Growth </h1>
 
                         </div>
                         <div className="col-sm-12 col-lg-7 text-center offset-lg-3">

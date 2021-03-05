@@ -231,11 +231,33 @@
   font-size: 20px;
   padding: 20px;
 }
-.body{
-  width:"90%"
+.detailpage{
+  justify-content:center;
+  justify-items:center;
+  display: block;
 }
- 
-  @media screen and (max-width: 480px) {
-    .body {width: 80%; float: left;}
+.detail
+{
+   width: 100% ;
+   justify-content:center;
+}
+.detailparagraph
+{
+  text-align: justify;
+}
+.detailimage
+{
+  font-size: 20px;
+  
+}
+.width{
+  width:100%;
+  margin: 0;
+  
+}
+@media (max-width: 576px) {
+  .width {
+    width: 200%;
+    margin-right :0;
   }
- 
+}
